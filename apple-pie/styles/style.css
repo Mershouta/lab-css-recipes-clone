@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+}
+
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: 'proxima-nova', sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.875;
+	margin: 0;
+}
+#Header-background {
+    height: 600px;
+    background: url(../images/apple-pie.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+ 
+ h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+  
+  }
+
+  .overallInfo {
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .cookingInfo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  :is(section, p) {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .line-1 {
+    height: 1px;
+    width: auto;
+    background: grey;
+    margin: 2rem;
+  }
+  
+  .line-2 {
+    height: 1px;
+    width: auto;
+    background: gray;
+    margin: 2rem;
+  }
